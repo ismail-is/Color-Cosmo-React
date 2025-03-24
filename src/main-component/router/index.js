@@ -23,9 +23,9 @@ const AllRoute = () => {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/Color-Cosmo-React'>
         <Routes>
-          <Route path="/Color-Cosmo-React" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="home" element={<Homepage />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />
