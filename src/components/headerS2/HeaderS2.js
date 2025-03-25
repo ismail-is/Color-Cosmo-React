@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
 import HeaderTopbarS2 from '../HeaderTopbarS2/HeaderTopbarS2';
-import Logo from '../../img/logo/black-logo.svg';
+import Logo from '../../img/Allimg/logo/logo.png';
 import Home1 from '../../img/header/home-1.jpg';
 import Home2 from '../../img/header/home-2.jpg';
 import Home3 from '../../img/header/home-3.jpg';
@@ -59,7 +59,20 @@ const HeaderS2 = (props) => {
                                 <div className="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li className="has-dropdown active menu-thumb">
+
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/">Home</Link>
+                                            </li>
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/about">About Us</Link>
+                                            </li>
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/">Our Services</Link>
+                                            </li>
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/contact">Contact Us</Link>
+                                            </li>
+                                            {/* <li className="has-dropdown active menu-thumb">
                                                 <Link onClick={ClickHandler} to="/home">
                                                     Home
                                                 </Link>
@@ -125,9 +138,7 @@ const HeaderS2 = (props) => {
                                                     <li><Link onClick={ClickHandler} to="/home-3">Home 03</Link></li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <Link onClick={ClickHandler} to="/about">About Us</Link>
-                                            </li>
+                                          
                                             <li>
                                                 <Link onClick={ClickHandler} to="#">
                                                     Services
@@ -167,20 +178,18 @@ const HeaderS2 = (props) => {
                                                     <li><Link onClick={ClickHandler} to="/blog-single/How-To-Teach-Kids-Ramadan-Isn’t-About-Food">Blog Details</Link></li>
                                                 </ul>
                                             </li>
-                                            <li>
-                                                <Link onClick={ClickHandler} to="/contact">Contact Us</Link>
-                                            </li>
+                                             */}
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div className="header-right d-flex justify-content-end align-items-center">
-                                <div className="menu-cart">
+                                {/* <div className="menu-cart">
                                     <Link onClick={ClickHandler} to="/shop-cart" className="cart-icon">
                                         <i className="far fa-shopping-basket"></i>
                                         <span>{carts.length}</span>
                                     </Link>
-                                </div>
+                                </div> */}
                                 <div className="content">
                                     <p>HOTLINE</p>
                                     <h5><a onClick={ClickHandler} to="del:00190081889">00190081889</a></h5>

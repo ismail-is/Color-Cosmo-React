@@ -22,6 +22,7 @@ import { connect } from "react-redux";
 import { addToCart } from "../../store/actions/action";
 import api from "../../api";
 import Ws6 from '../../img/feature/bg.png'
+import FooterS3 from '../../components/footerS3/FooterS3';
 
 const HomePage = ({ addToCart }) => {
 
@@ -37,24 +38,25 @@ const HomePage = ({ addToCart }) => {
         <Fragment>
             <Navbar hclass={'header-section'} />
             <Hero />
-            <FeatureSection />
+            {/* <FeatureSection /> */}
             <About />
-            <MarqueeSection hclass={'marquee-section margin-top-8 mb-80'} />
+            <FunFact hclass={'counter-section fix section-padding pt-0'} />
+          
             <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} />
             <StoreSection />
-            <ProductSection
+            <MarqueeSection hclass={'marquee-section margin-top-8 mb-80'} />
+            {/* <ProductSection
                 addToCartProduct={addToCartProduct}
                 products={products}
-            />
-            <PortfolioSection />
-            <FunFact hclass={'counter-section fix section-padding pt-0'} />
-            <WorksSection hclass={'about-feature-section fix section-padding pt-0 bg-cover'} eclass={'about-feature-wrapper'} Ws6={Ws6} />
-            <ProcessSection />
-            <PricingSection />
-            <Testimonial />
-            <BlogSection hclass="blog-section section-padding pt-0 bg-cover" SubClass="blog-wrapper" />
+            /> */}
+            {/* <PortfolioSection /> */}
+            {/* <WorksSection hclass={'about-feature-section fix section-padding pt-0 bg-cover'} eclass={'about-feature-wrapper'} Ws6={Ws6} /> */}
+            {/* <ProcessSection /> */}
+            {/* <PricingSection /> */}
+            {/* <Testimonial /> */}
+            {/* <BlogSection hclass="blog-section section-padding pt-0 bg-cover" SubClass="blog-wrapper" /> */}
             <CtaSection />
-            <Footer />
+            <FooterS3 />
             <CursorMaus />
         </Fragment>
     )

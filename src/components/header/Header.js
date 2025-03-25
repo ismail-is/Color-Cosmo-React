@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
 import HeaderTopbar from '../HeaderTopbar/HeaderTopbar';
-import Logo from '../../img/logo/black-logo.svg';
+import Logo from '../../img/Allimg/logo/logo.png';
 import Home1 from '../../img/header/home-1.jpg';
 import Home2 from '../../img/header/home-2.jpg';
 import Home3 from '../../img/header/home-3.jpg';
@@ -61,7 +61,19 @@ const Header = (props) => {
                                 <div className="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li className="has-dropdown active menu-thumb">
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/">Home</Link>
+                                            </li>
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/about">About Us</Link>
+                                            </li>
+                                        <li>
+                                                <Link onClick={ClickHandler} to="/">Our Services</Link>
+                                            </li>
+                                            <li>
+                                                <Link onClick={ClickHandler} to="/contact">Contact Us</Link>
+                                            </li>
+                                            {/* <li className="has-dropdown active menu-thumb">
                                                 <Link onClick={ClickHandler} to="/home">
                                                     Home
                                                 </Link>
@@ -168,17 +180,15 @@ const Header = (props) => {
                                                     <li><Link onClick={ClickHandler} to="/news">Blog</Link></li>
                                                     <li><Link onClick={ClickHandler} to="/blog-single/How-To-Teach-Kids-Ramadan-Isn’t-About-Food">Blog Details</Link></li>
                                                 </ul>
-                                            </li>
-                                            <li>
-                                                <Link onClick={ClickHandler} to="/contact">Contact Us</Link>
-                                            </li>
+                                            </li> */}
+                                            
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                             <div className="header-right d-flex justify-content-end align-items-center">
-                                <SearchComponent />
-                                <h5 className="cart-title"><Link onClick={ClickHandler} to="/shop-cart">Cart <span className='cart-count'>{carts.length}</span></Link></h5>
+                                {/* <SearchComponent /> */}
+                                {/* <h5 className="cart-title"><Link onClick={ClickHandler} to="/shop-cart">Cart <span className='cart-count'>{carts.length}</span></Link></h5> */}
                                 <div className="header__hamburger d-xl-none my-auto">
                                     <div className="sidebar__toggle">
                                         <MobileMenu />

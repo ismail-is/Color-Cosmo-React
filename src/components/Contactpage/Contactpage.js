@@ -21,8 +21,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>address line</h3>
                                     <p>
-                                        Bowery St, New York, 37 USA <br />
-                                        NY 10013,USA
+                                    AJMAN FREE ZONE
                                     </p>
                                 </div>
                             </div>
@@ -35,8 +34,8 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>Phone Number</h3>
                                     <p>
-                                        +1255 - 568 - 6523 4374-221 <br />
-                                        +1255 - 568 - 6523
+                                    06 74 54 004 <br />
+                                        
                                     </p>
                                 </div>
                             </div>
@@ -49,8 +48,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>Mail Adress</h3>
                                     <p>
-                                        email@example.com <br />
-                                        info@yourdomain.com
+                                    info@colorcosmo.com
                                     </p>
                                 </div>
                             </div>

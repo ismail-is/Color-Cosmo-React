@@ -13,19 +13,25 @@ import CtaSectionS2 from '../../components/CtaSectionS2/CtaSectionS2';
 import FooterS3 from '../../components/footerS3/FooterS3';
 import CursorMaus from '../../components/CursorMaus/CursorMaus';
 import ServiceBg from '../../img/service/service-bg.jpg'
+import Navbar from '../../components/Navbar/Navbar';
+import BrandSection from '../../components/BrandSection/BrandSection';
+import FeatureSection from '../../components/FeatureSection/FeatureSection';
 const AboutPage = () => {
     return (
         <Fragment>
-            <NavbarS2 hclass={'header-section-2 style-two'} />
+            {/* <NavbarS2 hclass={'header-section-2 style-two'} /> */}
+            <Navbar hclass={'header-section'} />
             <PageTitle pageTitle={'Digital printing Service'} pagesub={'About Company'} />
             <About2 hclass={'about-section section-padding'} />
             <MarqueeSection hclass={'marquee-section'} />
-            <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} />
+            {/* <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} /> */}
+                 <FeatureSection /> 
             <FunFact hclass={'counter-section fix section-padding'} />
-            <WorksSection hclass={'about-feature-section fix section-padding pt-0 bg-cover'} eclass={'about-feature-wrapper style-2'} />
+            {/* <WorksSection hclass={'about-feature-section fix section-padding pt-0 bg-cover'} eclass={'about-feature-wrapper style-2'} /> */}
             <CtaVideoSection  />
-            <ProcessSectionS2 />
-            <TestimonialSectionS3 />
+            {/* <ProcessSectionS2 /> */}
+            {/* <TestimonialSectionS3 /> */}
+            {/* <BrandSection /> */}
             <CtaSectionS2 />
             <FooterS3 />
             <CursorMaus />

@@ -73,12 +73,12 @@ const About2 = (props) => {
                                 </ul>
                                 <div className="about-author">
                                     <Link onClick={ClickHandler} to="/about" className="theme-btn wow fadeInUp" >more about us</Link>
-                                    <div className="author-image wow fadeInUp" >
+                                    {/* <div className="author-image wow fadeInUp" >
                                         <img src={author} alt="author-img" />
                                             <div className="content">
                                             <span>10m+ Trusted Global clients <img src={Line2} alt="img" /></span>
                                             </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -10,13 +10,13 @@ const FeatureSection = () => {
             <div className="container">
                 <div className="feature-wrapper">
                     <div className="row g-4">
-                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                             <div className="feature-box-items">
                                 <div className="icon">
                                     <img src={Feature1} alt="img" />
                                 </div>
                                 <div className="content">
-                                    <h3>Pick Products</h3>
+                                    <h3>Vision</h3>
                                     <p>
                                         Print on 100% quality cotton for
                                         vibrant finish and all-day
@@ -24,13 +24,13 @@ const FeatureSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div className="feature-box-items">
                                 <div className="icon">
                                     <img src={Feature2} alt="img" />
                                 </div>
                                 <div className="content">
-                                    <h3>Custom & review</h3>
+                                    <h3>Mission</h3>
                                     <p>
                                         Print on 100% quality cotton for
                                         vibrant finish and all-day
@@ -38,7 +38,7 @@ const FeatureSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        {/* <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                             <div className="feature-box-items">
                                 <div className="icon">
                                     <img src={Feature3} alt="img" />
@@ -51,7 +51,7 @@ const FeatureSection = () => {
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
