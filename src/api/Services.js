@@ -1,4 +1,4 @@
-import simg1 from '../img/service/01.png'
+   import simg1 from '../img/service/01.png'
 import simg2 from '../img/service/02.png'
 import simg3 from '../img/service/03.png'
 import simg4 from '../img/service/04.png'

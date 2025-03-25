@@ -38,23 +38,26 @@ const hero = () => {
                 <div className="row g-4 align-items-center">
                     <div className="col-lg-6">
                         <div className="hero-content">
-                            <h6 className="wow fadeInUp">Digital printing Service</h6>
+                            <h6 className="wow fadeInUp">Manufacturer Of Industrial Printing Inks</h6>
                             <h1 className="wow fadeInUp" data-wow-delay=".3s">
-                                Produce Printing,
-                                <span>Art & Sticker <img src={Shape6} alt="img" /></span>..
+                            High-Performance
+                                <span>Industrial Printing Inks <img src={Shape6} alt="img" /></span>..
                             </h1>
                             <p className="wow fadeInUp" data-wow-delay=".5s">
-                                Beautiful, customizable template, with a ton of web blocks <br />
-                                to create an amazing website that looks
+                            Reliable, Custom-Formulated Industrial Inks for Superior Print Quality Across Diverse Applications
                             </p>
                             <ul className="list wow fadeInUp" data-wow-delay=".7s">
                                 <li>
                                     <i className="fa-sharp fa-solid fa-check"></i>
-                                    Top quality prints using the latest technology
+                                    Top-Quality Prints Using Advanced Technology
                                 </li>
                                 <li>
                                     <i className="fa-sharp fa-solid fa-check"></i>
-                                    Mix and match colors, sizes, and designs
+                                    Precision Color Matching for Vibrant Results
+                                </li>
+                                <li>
+                                    <i className="fa-sharp fa-solid fa-check"></i>
+                                    Durable, High-Performance Printing Inks
                                 </li>
                             </ul>
                             <Link to="/shop" onClick={ClickHandler} className="theme-btn wow fadeInUp" data-wow-delay=".9s">Custom order</Link>

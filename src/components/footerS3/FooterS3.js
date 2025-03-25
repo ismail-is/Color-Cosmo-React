@@ -23,7 +23,7 @@ const FooterS3 = () => {
                 <img src={Shape2} alt="img" />
             </div>
             <div className="container">
-                <div className="footer-newsletter-wrapper style-2">
+                {/* <div className="footer-newsletter-wrapper style-2">
                     <div className="newsletter-items wow fadeInUp" data-wow-delay=".3s">
                         <div className="icon">
                             <img src={Shape3} alt="img" />
@@ -39,7 +39,7 @@ const FooterS3 = () => {
                             <i className="fa-solid fa-arrow-right"></i>
                         </button>
                     </div>
-                </div>
+                </div> */}
                 <div className="footer-widgets-wrapper style-2">
                     <div className="row">
                         <div className="col-xl-3 col-sm-6 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
@@ -51,8 +51,7 @@ const FooterS3 = () => {
                                 </div>
                                 <div className="footer-content">
                                     <p className="text-white">
-                                        A new way to make the payments easy,
-                                        reliable and 100% secure. claritatem itamconse quat. Exerci tation ullamcorper.
+                                    Advanced ink technology for seamless printing results. Consistency, reliability, and excellence
                                     </p>
                                     <div className="social-icon d-flex align-items-center">
                                         <Link onClick={ClickHandler} to="#"><i className="fab fa-facebook-f"></i></Link>
@@ -69,47 +68,58 @@ const FooterS3 = () => {
                                     <h3>Usefull Links</h3>
                                 </div>
                                 <ul className="list-items">
-                                    {Services.slice(0, 5).map((service, sitem) => (
-                                        <li key={sitem}>
-                                            <Link onClick={ClickHandler} to={`/service-details/${service.slug}`}>
-                                                {service.title}
+                                    {/* {Services.slice(0, 5).map((service, sitem) => ( */}
+                                        <li >
+                                            <Link to='/'>
+                                               Home 
                                             </Link>
                                         </li>
-                                    ))}
+                                        <li >
+                                            <Link to='/about'>
+                                               About  
+                                            </Link>
+                                        </li>
+                                        <li >
+                                            <Link to='/services'>
+                                            Our Services  
+                                            </Link>
+                                        </li>
+                                        <li >
+                                            <Link to='/contact'>
+                                            Contact
+                                            </Link>
+                                        </li>
+                                    {/* ))} */}
                                 </ul>
                             </div>
                         </div>
                         <div className="col-xl-3 ps-lg-4 col-sm-6 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".6s">
                             <div className="single-footer-widget">
                                 <div className="widget-head">
-                                    <h3>Community</h3>
+                                    <h3>Types of Inks</h3>
                                 </div>
                                 <ul className="list-items">
                                     <li>
-                                        <Link onClick={ClickHandler} to="/contact">
-                                            Help Center
+                                        <Link onClick={ClickHandler} to="/">
+                                        Dry Offset Inks
                                         </Link>
                                     </li>
                                     <li>
                                         <Link onClick={ClickHandler} to="/contact">
-                                            Partners
+                                        Screen Printing Inks
                                         </Link>
                                     </li>
                                     <li>
                                         <Link onClick={ClickHandler} to="/contact">
-                                            Suggestions
+                                        UV Offset Printing Inks
                                         </Link>
                                     </li>
                                     <li>
                                         <Link onClick={ClickHandler} to="/news">
-                                            Blog
+                                        UV Letterpress Inks
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link onClick={ClickHandler} to="/contact">
-                                            Newsletters
-                                        </Link>
-                                    </li>
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -120,16 +130,18 @@ const FooterS3 = () => {
                                 </div>
                                 <div className="footer-content">
                                     <p className="text-white">
-                                        2972 Westheimer Rd. Santa Ana, <br />
-                                        Illinois 85486
+                                    Ajman Free Zone, UAE
                                     </p>
                                     <ul className="contact-list">
-                                        <li>
-                                            <Link onClick={ClickHandler} to="#" className="link">contact@info.com</Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={ClickHandler} to="tel:+8060008899">+806 (000) 88 99</Link>
-                                        </li>
+                                    <li>
+    <a href="mailto:info@colorcosmo.com" className="link">info@colorcosmo.com</a>
+</li>
+<li>
+    <a href="https://wa.me/971508928586" target="_blank" rel="noopener noreferrer">
+        +971 50 8928586
+    </a>
+</li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -142,9 +154,9 @@ const FooterS3 = () => {
                     </Link>
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
                         <p className="wow fadeInLeft" data-wow-delay=".3s">
-                            Copyright <span>@2024</span> <Link onClick={ClickHandler} to="/home">Ui-drops</Link> All Rights Reserved
+                        © 2025 Color Cosmo | Site by<a href="https://brightmedia.tech/" target='_blank'> Bright Media </a> 
                         </p>
-                        <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
+                        {/* <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                             <li>
                                 <Link onClick={ClickHandler} to="/">
                                     Faqs
@@ -165,7 +177,7 @@ const FooterS3 = () => {
                                     Contact
                                 </Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>

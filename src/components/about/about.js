@@ -57,7 +57,7 @@ const about = () => {
                         <div className="col-lg-6">
                             <div className="about-content">
                                 <div className="section-title">
-                                    <h6 className="wow fadeInUp">More about us</h6>
+                                    <h6 className="wow fadeInUp"> About us</h6>
                                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                         Create Stunning Print For
                                         <span> Your Business <img src={Abimg9} alt="img" /></span>
@@ -99,12 +99,12 @@ const about = () => {
                                 </div>
                                 <div className="about-author">
                                     <Link onClick={ClickHandler} to="/about" className="theme-btn wow fadeInUp" data-wow-delay=".3s">more about us</Link>
-                                    <div className="author-image wow fadeInUp" data-wow-delay=".5s">
+                                    {/* <div className="author-image wow fadeInUp" data-wow-delay=".5s">
                                         <img src={Abimg11} alt="img" />
                                             <div className="content">
                                             <span>10m+ Trusted Global clients <img src={Abimg12} alt="img" /></span>
                                             </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
