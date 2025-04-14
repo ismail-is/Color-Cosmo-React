@@ -60,7 +60,7 @@ const hero = () => {
                                     Durable, High-Performance Printing Inks
                                 </li>
                             </ul>
-                            <Link to="/shop" onClick={ClickHandler} className="theme-btn wow fadeInUp" data-wow-delay=".9s">Custom order</Link>
+                            <Link to="/" onClick={ClickHandler} className="theme-btn wow fadeInUp" data-wow-delay=".9s">Our Services</Link>
                         </div>
                     </div>
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">

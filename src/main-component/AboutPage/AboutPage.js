@@ -21,7 +21,7 @@ const AboutPage = () => {
         <Fragment>
             {/* <NavbarS2 hclass={'header-section-2 style-two'} /> */}
             <Navbar hclass={'header-section'} />
-            <PageTitle pageTitle={'Digital printing Service'} pagesub={'About Company'} />
+            <PageTitle pageTitle={'Manufacturer Of Industrial Printing Inks'} pagesub={'About Us'} />
             <About2 hclass={'about-section section-padding'} />
             <MarqueeSection hclass={'marquee-section'} />
             {/* <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} /> */}

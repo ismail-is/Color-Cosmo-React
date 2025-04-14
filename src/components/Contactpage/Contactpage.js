@@ -19,9 +19,9 @@ const Contactpage = () => {
                                     <img src={InfIcon1} alt="icon-img" />
                                 </div>
                                 <div className="content">
-                                    <h3>address line</h3>
+                                    <h3>Address</h3>
                                     <p>
-                                    AJMAN FREE ZONE
+                                    Ajman Free Zone, UAE
                                     </p>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ const Contactpage = () => {
                                 <div className="content">
                                     <h3>Phone Number</h3>
                                     <p>
-                                    06 74 54 004 <br />
+                                    +971 508 928 586<br />
                                         
                                     </p>
                                 </div>
@@ -70,7 +70,7 @@ const Contactpage = () => {
                                             faucibus odio feugiat arc dolor.
                                     </p>
                                     <div className="google-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd" ></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21934.345565840806!2d55.441072189686935!3d25.40870682958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5828a03bc563%3A0x9e11214ae75b0bf2!2sFree%20Zone%20-%20Ajman%20-%20United%20Arab%20Emirates!5e1!3m2!1sen!2sin!4v1742879869906!5m2!1sen!2sin" ></iframe>
                                     </div>
                                 </div>
                             </div>

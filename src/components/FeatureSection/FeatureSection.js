@@ -18,8 +18,7 @@ const FeatureSection = () => {
                                 <div className="content">
                                     <h3>Vision</h3>
                                     <p>
-                                        Print on 100% quality cotton for
-                                        vibrant finish and all-day
+                                    Color Cosmo aims to become a market-leading supplier of Custom-Made Industrial Inks, Pigment Paste, and Related Accessories with a focus on reliability and quality consistency
                                     </p>
                                 </div>
                             </div>
@@ -32,8 +31,7 @@ const FeatureSection = () => {
                                 <div className="content">
                                     <h3>Mission</h3>
                                     <p>
-                                        Print on 100% quality cotton for
-                                        vibrant finish and all-day
+                                    Color Cosmo is committed to providing competitively-priced products and trustworthy on-site services for the Printing and Packaging Industry within the UAE and abroad
                                     </p>
                                 </div>
                             </div>

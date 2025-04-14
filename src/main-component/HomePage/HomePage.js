@@ -23,7 +23,7 @@ import { addToCart } from "../../store/actions/action";
 import api from "../../api";
 import Ws6 from '../../img/feature/bg.png'
 import FooterS3 from '../../components/footerS3/FooterS3';
-
+import Hero2 from '../../components/hero2/Hero2';
 const HomePage = ({ addToCart }) => {
 
     const productsArray = api();
@@ -37,7 +37,8 @@ const HomePage = ({ addToCart }) => {
     return (
         <Fragment>
             <Navbar hclass={'header-section'} />
-            <Hero />
+            {/* <Hero /> */}
+            <Hero2 />
             {/* <FeatureSection /> */}
             <About />
             <FunFact hclass={'counter-section fix section-padding pt-0'} />
