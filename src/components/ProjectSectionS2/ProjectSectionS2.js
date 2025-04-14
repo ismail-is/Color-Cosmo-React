@@ -11,7 +11,7 @@ const  {ShowSectionTitle = true } = props
     return (
         <section className={"" +props.hclass}>
             {ShowSectionTitle && (
-            <div className="container">
+            <div className="container" style={{marginTop:'30px'}}>
                 <div className="section-title-area">
                     <div className="section-title">
                         <h6 className="wow fadeInUp">Digital printing Service</h6>

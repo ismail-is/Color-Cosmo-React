@@ -24,6 +24,13 @@ import api from "../../api";
 import Ws6 from '../../img/feature/bg.png'
 import FooterS3 from '../../components/footerS3/FooterS3';
 import Hero2 from '../../components/hero2/Hero2';
+import ShopbannerSection from '../../components/ShopbannerSection/ShopbannerSection';
+import MarqueeSectionS2 from '../../components/MarqueeSectionS2/MarqueeSectionS2';
+import ProductSectionS3 from '../../components/ProductSectionS3/ProductSectionS3';
+import ProjectSectionS2 from '../../components/ProjectSectionS2/ProjectSectionS2';
+import BrandSection from '../../components/BrandSection/BrandSection';
+import MarqueeSectionS3 from '../../components/MarqueeSectionS3/MarqueeSectionS3';
+
 const HomePage = ({ addToCart }) => {
 
     const productsArray = api();
@@ -40,12 +47,20 @@ const HomePage = ({ addToCart }) => {
             {/* <Hero /> */}
             <Hero2 />
             {/* <FeatureSection /> */}
-            <About />
+            <ShopbannerSection />
+            <MarqueeSectionS2 />
+            <ProductSectionS3 products={products} />
+            <ProjectSectionS2 hclass={'project-section s2 fix section-padding pt-0'} />
+            <BrandSection />
+            <MarqueeSectionS3 />
+
+            {/* <About />
             <FunFact hclass={'counter-section fix section-padding pt-0'} />
           
             <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} />
             <StoreSection />
-            <MarqueeSection hclass={'marquee-section margin-top-8 mb-80'} />
+            <MarqueeSection hclass={'marquee-section margin-top-8 mb-80'} /> */}
+            
             {/* <ProductSection
                 addToCartProduct={addToCartProduct}
                 products={products}
@@ -56,7 +71,7 @@ const HomePage = ({ addToCart }) => {
             {/* <PricingSection /> */}
             {/* <Testimonial /> */}
             {/* <BlogSection hclass="blog-section section-padding pt-0 bg-cover" SubClass="blog-wrapper" /> */}
-            <CtaSection />
+            {/* <CtaSection /> */}
             <FooterS3 />
             <CursorMaus />
         </Fragment>
