@@ -36,7 +36,7 @@ const ShopbannerSection = () => {
                                 <h3>
                                 Mission  
                                 </h3>
-                                <h4><span>We aim to deliver competitively priced inks and trusted technical support to our clients, offering tailor-made solutions that enhance print quality across various substrates and packaging formats</span></h4>
+                                <h4 style={{color:'#08BDC9'}}><span>We aim to deliver competitively priced inks and trusted technical support to our clients, offering tailor-made solutions that enhance print quality across various substrates and packaging formats</span></h4>
                                 {/* <Link onClick={ClickHandler} to="/shop" className="theme-btn">Shop Now</Link> */}
                             </div>
                             <div className="shop-image">
