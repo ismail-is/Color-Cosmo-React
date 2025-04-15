@@ -21,13 +21,13 @@ const AboutPage = () => {
         <Fragment>
             {/* <NavbarS2 hclass={'header-section-2 style-two'} /> */}
             <Navbar hclass={'header-section'} />
-            <PageTitle pageTitle={'Manufacturer Of Industrial Printing Inks'} pagesub={'About Us'} />
+            <PageTitle pageTitle={''} pagesub={'About Us'} />
             <About2 hclass={'about-section section-padding'} />
             <MarqueeSection hclass={'marquee-section'} />
             {/* <ServiceSection hclass={'service-section bg-cover section-padding'} Bg={ServiceBg} /> */}
-                 <FeatureSection /> 
+                 {/* <FeatureSection />  */}
             <FunFact hclass={'counter-section fix section-padding'} />
-            {/* <WorksSection hclass={'about-feature-section fix section-padding pt-0 bg-cover'} eclass={'about-feature-wrapper style-2'} /> */}
+            <WorksSection hclass={'about-feature-section fix section-padding pt-0 bg-cover'} eclass={'about-feature-wrapper style-2'} />
             <CtaVideoSection  />
             {/* <ProcessSectionS2 /> */}
             {/* <TestimonialSectionS3 /> */}

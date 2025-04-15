@@ -49,12 +49,12 @@ const About2 = (props) => {
                                 <div className="section-title">
                                     <h6 className="wow fadeInUp"> About us</h6>
                                     <h2 className="wow fadeInUp" >
-                                    Your Trusted Partner 
-                                        <span> in High-Performance <img src={Line} alt="img" />Printing Inks </span>
+                                    Our Ink Solutions,
+                                        <span>  Crafted to Perform<img src={Line} alt="img" /> </span>
                                     </h2>
                                 </div>
                                 <p className="mt-3 mt-md-0 wow fadeInUp" >
-                                At Color Cosmo, we provide premium industrial inks designed for precision, durability, and vibrant color reproduction. With 50+ years of expertise, we specialize in UV Offset, Screen Printing, Dry Offset, and Letterpress Inks, ensuring superior adhesion and long-lasting results.Partner with us for custom ink solutions tailored to your printing needs! 
+                                We manufacture custom industrial inks for dry offset, screen, UV offset, and letterpress printing—designed for durability, brilliance, and precision across all packaging types.
                                 </p>
                                 <ul className="about-list wow fadeInUp">
                                     <li>

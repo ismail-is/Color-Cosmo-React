@@ -11,7 +11,7 @@ import { useParams } from 'react-router-dom'
 import BlogSidebar from '../BlogSidebar/BlogSidebar'
 import ContactForm from './Contact';
 
-const BlogSingle = (props) => {
+const BlogSingle = () => {
 
     const { slug } = useParams()
 

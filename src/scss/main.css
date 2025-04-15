@@ -5043,8 +5043,9 @@ span {
   padding-left: 30px;
   margin-top: 20px;
   position: relative;
+  
 }
-.news-details-wrapper .single-news-post .details-content .hilight-text h6::before {
+/* .news-details-wrapper .single-news-post .details-content .hilight-text h6::before {
   position: absolute;
   top: 8px;
   left: 0;
@@ -5052,7 +5053,7 @@ span {
   width: 16px;
   height: 2px;
   background-color: var(--header);
-}
+} */
 .news-details-wrapper .single-news-post .details-content h4 {
   font-size: 28px;
   font-weight: 700;

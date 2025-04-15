@@ -75,9 +75,9 @@ const HeroSection = () => {
                                         className="hero-content"
                                         data-animation="fadeInUp"
                                         data-delay="1.1s"
-                                        style={{
-                                            backgroundImage: `url(${Shapbg})`,
-                                        }}
+                                        // style={{
+                                        //     backgroundImage: `url(${Shapbg})`,
+                                        // }}
                                     >
                                         <h5></h5>
                                         <h1 data-animation="fadeInUp" data-delay="1.5s">

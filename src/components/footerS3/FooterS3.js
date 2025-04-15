@@ -154,30 +154,22 @@ const FooterS3 = () => {
                     </Link>
                     <div className="footer-wrapper d-flex align-items-center justify-content-between">
                         <p className="wow fadeInLeft" data-wow-delay=".3s">
-                        © 2025 Color Cosmo | Site by<a href="https://brightmedia.tech/" target='_blank'> Bright Media </a> 
+                        © 2025 Color Cosmo |  Powered By <a href="https://brightmedia.tech/" target='_blank'> Bright Media </a> 
                         </p>
-                        {/* <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
+                        <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                             <li>
-                                <Link onClick={ClickHandler} to="/">
-                                    Faqs
+                                <Link onClick={ClickHandler} to="/QualityPolicy">
+                                Quality Policy
                                 </Link>
                             </li>
-                            <li>
-                                <Link onClick={ClickHandler} to="/contact">
-                                    Setting
-                                </Link>
-                            </li>
-                            <li>
-                                <Link onClick={ClickHandler} to="/contact">
-                                    Privacy
-                                </Link>
-                            </li>
+                           
+                            
                             <li>
                                 <Link onClick={ClickHandler} to="/contact">
                                     Contact
                                 </Link>
                             </li>
-                        </ul> */}
+                        </ul>
                     </div>
                 </div>
             </div>

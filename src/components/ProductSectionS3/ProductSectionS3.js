@@ -65,7 +65,7 @@ const ProductSectionS3 = ({ products }) => {
                 <div className="section-title text-center">
                     <h6 className="wow fadeInUp">Color Cosmo</h6>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    Some Of The Brands They’ve  <br/> Worked With
+                    Some Of The Brands  We have  <br/> Worked With
                     </h2>
                 </div>
                 <div className="swiper shop-slider">
@@ -90,10 +90,10 @@ const ProductSectionS3 = ({ products }) => {
                             ))}
                     </div>
                 </div>
-
+{/* 
                 <h5 className="shop-bottom-title wow fadeInUp" data-wow-delay=".3s">
                     Unlock more products & buy it for your business <Link onClick={ClickHandler} to="/shop">More products</Link>
-                </h5>
+                </h5> */}
             </div>
         </section>
     );

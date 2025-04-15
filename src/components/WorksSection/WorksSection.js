@@ -34,32 +34,24 @@ const WorksSection = (props) => {
                                 <div className="section-title">
                                     <h6 className="wow fadeInUp">More about us</h6>
                                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                        How Print-On-Demand
-                                        <span><img src={Ws5} alt="img" />Drop Shipping</span> Works
+                                    Driven by Color, 
+                                        <span><img src={Ws5} alt="img" />Backed by Science</span>
                                     </h2>
                                 </div>
                                 <div className="box-items-area mt-3 mt-md-0">
                                     <div className="box-item wow fadeInUp" data-wow-delay=".3s">
-                                        <h5>Competitive & flexible product pricing</h5>
+                                        <h5>Experts in Custom Inks</h5>
                                         <p>
-                                            Everyone’s local printer, we partner with more than 50 print
-                                            on demand suppliers in over 10  we partner with more
+                                        With over 50 years of combined expertise, we specialize in tailor-made ink solutions for diverse packaging materials and industries.
                                         </p>
                                     </div>
                                     <div className="box-item active wow fadeInUp" data-wow-delay=".3s">
-                                        <h5>Catalog of 350+ products</h5>
+                                        <h5>Quality You Can Trust</h5>
                                         <p>
-                                            Everyone’s local printer, we partner with more than 50 print
-                                            on demand suppliers in over 10  we partner with more
+                                        Our ISO-certified facility, rigorous testing, and high-grade materials ensure consistent performance and customer satisfaction across every order
                                         </p>
                                     </div>
-                                    <div className="box-item wow fadeInUp" data-wow-delay=".3s">
-                                        <h5>Competitive & flexible product pricing</h5>
-                                        <p>
-                                            Everyone’s local printer, we partner with more than 50 print
-                                            on demand suppliers in over 10  we partner with more
-                                        </p>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
