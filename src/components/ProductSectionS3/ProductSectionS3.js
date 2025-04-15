@@ -63,10 +63,9 @@ const ProductSectionS3 = ({ products }) => {
             </div>
             <div className="container">
                 <div className="section-title text-center">
-                    <h6 className="wow fadeInUp">Digital printing Service</h6>
+                    <h6 className="wow fadeInUp">Color Cosmo</h6>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                        Our Popular Print Service <br />
-                        Complete Solution
+                    Some Of The Brands They’ve  <br/> Worked With
                     </h2>
                 </div>
                 <div className="swiper shop-slider">
@@ -80,11 +79,11 @@ const ProductSectionS3 = ({ products }) => {
                                         </div>
                                         <div className="shop-content">
                                             <h3>
-                                                <Link onClick={ClickHandler} to={`/shop-details/${product.slug}`}>
+                                                <Link to='#'>
                                                     {product.title}
                                                 </Link>
                                             </h3>
-                                            <p>312 Product</p>
+                                            {/* <p>312 Product</p> */}
                                         </div>
                                     </div>
                                 </div>

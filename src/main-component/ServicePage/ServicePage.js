@@ -10,10 +10,12 @@ import FooterS3 from '../../components/footerS3/FooterS3';
 import CursorMaus from '../../components/CursorMaus/CursorMaus';
 import About from '../../components/about/about';
 import About4 from '../../components/about4/about4';
+import Navbar from '../../components/Navbar/Navbar';
 const ServicePage = () => {
     return (
         <Fragment>
-            <NavbarS2 hclass={'header-section-2 style-two'} />
+            {/* <NavbarS2 hclass={'header-section-2 style-two'} /> */}
+               <Navbar hclass={'header-section'} />
             <PageTitle pageTitle={'Digital printing Service'} pagesub={'Service page'} />
 
             <About/>

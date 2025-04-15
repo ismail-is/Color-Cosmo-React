@@ -48,7 +48,8 @@ const HomePage = ({ addToCart }) => {
             <Hero2 />
             {/* <FeatureSection /> */}
             <ShopbannerSection />
-            <MarqueeSectionS2 />
+            {/* <MarqueeSectionS2 /> */}
+            <MarqueeSection hclass={'marquee-section'} />
             <ProductSectionS3 products={products} />
             <ProjectSectionS2 hclass={'project-section s2 fix section-padding pt-0'} />
             <BrandSection />

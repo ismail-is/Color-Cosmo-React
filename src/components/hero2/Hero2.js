@@ -79,21 +79,20 @@ const HeroSection = () => {
                                             backgroundImage: `url(${Shapbg})`,
                                         }}
                                     >
-                                        <h5>Digital printing Service</h5>
+                                        <h5></h5>
                                         <h1 data-animation="fadeInUp" data-delay="1.5s">
-                                            Get 25% off your <br /> first order
+                                        Delivering <br/>High-performance Inks For Modern Packaging
                                         </h1>
                                         <p data-animation="fadeInUp" data-delay="1.7s">
-                                            Beautiful, customizable template, with a ton of web blocks <br />
-                                            to create an amazing website that looks
+                                        Trusted By Top Manufacturers For Ink Solutions
                                         </p>
                                         <div className="hero-button">
-                                            <Link onClick={ClickHandler} to="/shop"
+                                            <Link onClick={ClickHandler} to="/contact"
                                                 data-animation="fadeInUp"
                                                 data-delay="1.9s"
                                                 className="theme-btn hover-white"
                                             >
-                                                Order Today
+                                               Contact Us
                                             </Link>
                                         </div>
                                     </div>
@@ -102,7 +101,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div
                         className="hero-2 bg-cover"
                         style={{ backgroundImage: `url(${hero2})` }}
@@ -231,7 +230,7 @@ const HeroSection = () => {
                             </div>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
             <div className="dot-2"></div>
         </section>

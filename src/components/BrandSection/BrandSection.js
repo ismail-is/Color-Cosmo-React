@@ -4,7 +4,7 @@ import 'swiper/swiper-bundle.min.css';
 import SwiperCore, { Autoplay } from 'swiper';
 
 // Import brand logos
-import BS1 from '../../img/brand/brand-logo-1.png';
+import BS1 from '../../img/Allimg/clients/1.png';
 import BS2 from '../../img/brand/brand-logo-2.png';
 import BS3 from '../../img/brand/brand-logo-3.png';
 import BS4 from '../../img/brand/brand-logo-4.png';
