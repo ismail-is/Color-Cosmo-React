@@ -6,14 +6,16 @@ import Abimg2 from '../../img/about/dot-2.png'
 import Abimg3 from '../../img/about/circle.png'
 import Abimg4 from '../../img/about/cap.png'
 import Abimg5 from '../../img/about/shape.png'
-import Abimg6 from '../../img/about/01.jpg'
-import Abimg7 from '../../img/about/02.jpg'
-import Abimg8 from '../../img/about/03.jpg'
+import Abimg6 from '../../img/Allimg/service/1-1.jpg'
+import Abimg7 from '../../img/Allimg/service/1-3.jpg'
+import Abimg8 from '../../img/Allimg/service/1-2.jpg'
 import Abimg9 from '../../img/line.png'
-import Abimg10 from '../../img/icon/01.svg'
+import Abimg10 from '../../img/Allimg/icons/Applications.png'
 import Abimg11 from '../../img/about/author.png'
 import Abimg12 from '../../img/about/line.png'
-import Abimg13 from '../../img/icon/02.svg'
+import Abimg13 from '../../img/Allimg/icons/Availability.png'
+import Abimg14 from '../../img/Allimg/icons/package.png'
+import Abimg15 from '../../img/Allimg/icons/Properties.png'
 import { Link } from 'react-router-dom';
 
 const about = () => {
@@ -38,7 +40,7 @@ const about = () => {
                                     <img src={Abimg3} alt="img" />
                                 </div>
                                 <div className="cap-shape float-bob-x">
-                                    <img src={Abimg4} alt="img" />
+                                    <img src={Abimg1} alt="img" />
                                 </div>
                                 <div className="shape-img">
                                     <img src={Abimg5} alt="img" />
@@ -71,7 +73,7 @@ const about = () => {
                                         <div className="icon-box-items active">
                                             <div className="icon-items">
                                                 <div className="icon">
-                                                    <img src={Abimg10} alt="img" />
+                                                    <img src={Abimg10} alt="img"  style={{height:'40px'}}/>
                                                 </div>
                                                 <h6>Applications for CC UV DO</h6>
                                             </div>
@@ -99,7 +101,7 @@ const about = () => {
                                         <div className="icon-box-items">
                                             <div className="icon-items">
                                                 <div className="icon bg-2" style={{backgroundColor:'#93519f'}}>
-                                                    <img src={Abimg13} alt="" />
+                                                    <img src={Abimg13} alt="" style={{height:'40px'}}/>
                                                 </div>
                                                 <h6>Color Availability</h6>
                                             </div>
@@ -137,14 +139,50 @@ const about = () => {
 
 
 
-                        <div className="col-lg-12">
+                        <div className="col-lg-6">
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items active">
+    <div className="icon-box-items active" >
       <div className="icon-items">
         <div className="icon">
-          <img src={Abimg10} alt="img" />
+          <img src={Abimg14} alt="img"  style={{height:'40px'}}/>
+        </div>
+        <h6>Packaging        </h6>
+      </div>
+      
+
+      {/* Wrapper for 2-row layout */}
+      <div style={{ display: 'flex', gap:'230px' }}>
+      <div className="icon-items">
+      <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+        <h6>1 Kg        </h6>
+      </div>
+      <div className="icon-items">
+      <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+        <h6>2 Kg        </h6>
+      </div>
+    
+       
+       
+        
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+                                
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="about-content">
+                                <div className="row g-4">
+  <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+    <div className="icon-box-items ">
+      <div className="icon-items">
+        <div className="icon">
+          <img src={Abimg15} alt="img" style={{height:'40px'}}/>
         </div>
         <h6>Properties</h6>
       </div>
@@ -201,6 +239,7 @@ const about = () => {
                                 
                             </div>
                         </div>
+                        
                         
                     </div>
                 </div>
