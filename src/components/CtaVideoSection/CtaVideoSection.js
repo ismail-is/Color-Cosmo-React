@@ -9,13 +9,14 @@ import Logo4 from '../../img/brand/brand-logo-14.png'
 import Logo5 from '../../img/brand/brand-logo-15.png'
 import VideoModal from '../ModalVideo/VideoModal';
 import BrandSection from '../BrandSection/BrandSection';
+import PBg from '../../img/product/bg.jpg';
 
 
 
 const CtaVideoSection = () => {
     return (
-        <div className="cta-video-section" style={{marginBottom:'20px'}}>
-            <div className="mycustom-marque style-about">
+        <div className="cta-video-section" >
+            {/* <div className="mycustom-marque style-about">
                 <div className="scrolling-wrap">
                     <div className="comm">
                         <div className="cmn-textslide">business </div>
@@ -38,18 +39,18 @@ const CtaVideoSection = () => {
                         <div className="cmn-textslide">Consulting</div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="container-fluid">
-                <div className="cta-video-wrapper bg-cover" style={{ backgroundImage: `url(${BG})`}}>
+                <section className="contact-section section-padding pt-10 section-bg-2" style={{ backgroundImage: `url(${PBg})` }}>
                     <div >
                         <VideoModal/>
                     </div>
-                </div>
+                </section>
             </div>
-            <div className="brand-wrapper-4 bg-cover" style={{ backgroundImage: `url(${BG1})`}}>
+            {/* <div className="brand-wrapper-4 bg-cover" style={{ backgroundImage: `url(${BG1})`}}>
                 <div className="container">
                     <h4 className="text-center">We are blessed to work with leading brands <span>brands</span></h4>
-                    {/* <div className="brand-items">
+                    <div className="brand-items">
                         <div className="brand-logo">
                             <img src={Logo1} alt="img" />
                         </div>
@@ -65,10 +66,10 @@ const CtaVideoSection = () => {
                         <div className="brand-logo">
                             <img src={Logo5} alt="img" />
                         </div>
-                    </div> */}
+                    </div>
                        <BrandSection />
                 </div>
-            </div>
+            </div> */}
         </div>
 
     );

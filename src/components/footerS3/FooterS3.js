@@ -6,7 +6,7 @@ import Bgimg from '../../img/footer/footer-bg-2.jpg'
 import Shape1 from '../../img/footer/line-shape.png'
 import Shape2 from '../../img/footer/star.png'
 import Shape3 from '../../img/mail.png'
-import Logo from '../../img/logo/white-logo.svg'
+import Logo from '../../img/Allimg/logo1.png';
 
 
 const ClickHandler = () => {

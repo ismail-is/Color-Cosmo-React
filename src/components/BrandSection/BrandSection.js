@@ -4,25 +4,34 @@ import 'swiper/swiper-bundle.min.css';
 import SwiperCore, { Autoplay } from 'swiper';
 
 // Import brand logos
+import PBg from '../../img/product/bg.jpg';
 import BS1 from '../../img/Allimg/clients/1.png';
-import BS2 from '../../img/brand/brand-logo-2.png';
-import BS3 from '../../img/brand/brand-logo-3.png';
-import BS4 from '../../img/brand/brand-logo-4.png';
-import BS5 from '../../img/brand/brand-logo-5.png';
-import BS6 from '../../img/brand/brand-logo-6.png';
-import BS7 from '../../img/brand/brand-logo-7.png';
-import BS8 from '../../img/brand/brand-logo-8.png';
-import BS9 from '../../img/brand/brand-logo-9.png';
-import BS10 from '../../img/brand/brand-logo-10.png';
+import BS2 from '../../img/Allimg/clients/2.png';
+import BS3 from '../../img/Allimg/clients/3.png';
+import BS4 from '../../img/Allimg/clients/4.png';
+import BS5 from '../../img/Allimg/clients/5.png';
+import BS6 from '../../img/Allimg/clients/6.png';
+import BS7 from'../../img/Allimg/clients/7.png';
+import BS8 from '../../img/Allimg/clients/8.png';
+import BS9 from '../../img/Allimg/clients/1.png';
+import BS10 from '../../img/Allimg/clients/2.png';
 
 // Install required Swiper modules
 SwiperCore.use([Autoplay]);
 
 const BrandSection = () => {
     return (
+        <section  className="shop-section bg-cover section-padding" style={{ backgroundImage: `url(${PBg})` }}>
         <div className="brand-section">
             <div className="container">
+                
                 <div className="brand-wrapper">
+                <div className="section-title text-center">
+                    <h6 className="wow fadeInUp">Color Cosmo</h6>
+                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    Some Of The Brands  We have  <br/> Worked With
+                    </h2>
+                </div>
                     <Swiper
                         spaceBetween={30}
                         speed={2000}
@@ -115,6 +124,7 @@ const BrandSection = () => {
                 </div>
             </div>
         </div>
+        </section>
     );
 };
 

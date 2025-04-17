@@ -2,14 +2,14 @@ import pimg1 from '../img/portfolio/01.jpg'
 import pimg2 from '../img/portfolio/02.jpg'
 import pimg3 from '../img/portfolio/03.jpg'
 import pimg4 from '../img/portfolio/04.jpg'
-import pimg5 from '../img/project/01.jpg'
-import pimg6 from '../img/project/03.jpg'
-import pimg7 from '../img/project/05.jpg'
-import pimg8 from '../img/project/06.jpg'
-import pimg9 from '../img/project/04.jpg'
-import pimg10 from '../img/project/07.jpg'
-import pimg11 from '../img/project/02.jpg'
-import pimg12 from '../img/project/08.jpg'
+import pimg5 from '../img/Allimg/work/1.png'
+import pimg6 from '../img/Allimg/work/2.png'
+import pimg7 from '../img/Allimg/work/3.png'
+import pimg8 from '../img/Allimg/work/4.png'
+import pimg9 from '../img/Allimg/work/5.png'
+import pimg10 from '../img/Allimg/work/6.png'
+import pimg11 from '../img/Allimg/work/7.png'
+import pimg12 from '../img/Allimg/work/8.png'
 import pimg13 from '../img/project/09.jpg'
 import pimg14 from '../img/project/10.jpg'
 import pimg15 from '../img/project/11.jpg'
@@ -103,7 +103,7 @@ const Portfolio = [
     },
     {
         id: '5',
-        title:'3d Printed Cup',
+        title:'Diamond',
         Subtitle:'AI',
         slug:'3d-Printed-Cup',
         pimg1:pimg5,
@@ -114,7 +114,7 @@ const Portfolio = [
     },
     {
         id: '6',
-        title:'Painted Orange Slices',
+        title:'Al Rawabi',
         Subtitle:'AI',
         slug:'Painted-Orange-Slices',
         pimg1:pimg6,
@@ -125,7 +125,7 @@ const Portfolio = [
     },
     {
         id: '7',
-        title:'Banana & Coffee',
+        title:'Igloo',
         Subtitle:'AI',
         slug:'Banana-Coffee',
         pimg1:pimg7,
@@ -136,7 +136,7 @@ const Portfolio = [
     },
     {
         id: '8',
-        title:'Coffee o Clock',
+        title:'Al Ain Farms',
         Subtitle:'AI',
         slug: 'Coffee-o-Clock',
         pimg1:pimg8,
@@ -147,7 +147,7 @@ const Portfolio = [
     },
     {
         id: '9',
-        title:'Cherries on Turquiose',
+        title:'Akira',
         Subtitle:'AI',
         slug:'Cherries-on-Turquiose',
         pimg1:pimg9,
@@ -158,7 +158,7 @@ const Portfolio = [
     },
     {
         id: '10',
-        title:'Orange on Blue',
+        title:'Stanley ',
         Subtitle:'AI',
         slug:'Orange-on-Blue',
         pimg1:pimg10,
@@ -169,7 +169,7 @@ const Portfolio = [
     },
     {
         id: '11',
-        title:'Orange Rose Flower',
+        title:'Dunkin Donuts ',
         Subtitle:'AI',
         slug:'Orange-Rose-Flower',
         pimg1:pimg11,
@@ -180,7 +180,7 @@ const Portfolio = [
     },
     {
         id: '12',
-        title:'Glasses of Cocktail',
+        title:'Nestle',
         Subtitle:'AI',
         slug:'Glasses-of-Cocktail',
         pimg1:pimg12,
@@ -189,42 +189,7 @@ const Portfolio = [
         date:'25 October 2024',
         location:'Design Studio In USA',
     },
-    {
-        id: '13',
-        slug:'Glasses-of-Cocktail1',
-        pimg1:pimg13,
-        pS1img:pS1img13,
-        pS2img: pS2img13,
-        date:'25 October 2024',
-        location:'Design Studio In USA',
-    },
-    {
-        id: '14',
-        slug:'Glasses-of-Cocktail2',
-        pimg1:pimg14,
-        pS1img:pS1img14,
-        pS2img: pS2img14,
-        date:'25 October 2024',
-        location:'Design Studio In USA',
-    },
-    {
-        id: '15',
-        slug:'Glasses-of-Cocktail3',
-        pimg1:pimg15,
-        pS1img:pS1img15,
-        pS2img: pS2img15,
-        date:'25 October 2024',
-        location:'Design Studio In USA',
-    },
-    {
-        id: '16',
-        slug:'Glasses-of-Cocktail4',
-        pimg1:pimg16,
-        pS1img:pS1img16,
-        pS2img: pS2img16,
-        date:'25 October 2024',
-        location:'Design Studio In USA',
-    },
+   
 
 ]
 export default Portfolio;

@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Mq1 from '../../img/marquee-box-3.png'
 import Mq2 from '../../img/cta-bg-2.jpg'
-import Mq3 from '../../img/print-box.png'
-import Mq4 from '../../img/hand-bag.png'
-import Mq5 from '../../img/cta-sticker.png'
-import Mq6 from '../../img/cta-t-shirt.png'
+import Mq3 from '../../img/about/dot-1.png'
+import Mq4 from '../../img/about/dot-1.png'
+import Mq5 from '../../img/about/dot-2.png'
+import Mq6 from '../../img/Allimg/ctc.png'
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);

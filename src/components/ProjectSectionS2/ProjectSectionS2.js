@@ -16,8 +16,7 @@ const  {ShowSectionTitle = true } = props
                     <div className="section-title">
                         <h6 className="wow fadeInUp">Digital printing Service</h6>
                         <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                            Our Popular Print Service <br />
-                            Complete Solution
+                        Some of the works for our clients
                         </h2>
                     </div>
                     <Link onClick={ClickHandler} to="/about" className="theme-btn wow fadeInUp" data-wow-delay=".5s">
@@ -35,11 +34,10 @@ const  {ShowSectionTitle = true } = props
                                     <img src={project.pimg1} alt={project.title} style={{ width: '100%', display: 'block' }} />
                                     <div className="portfolio-content">
                                         <h3>
-                                            <Link onClick={ClickHandler} to={`/project-details/${project.slug}`}>
+                                            <Link onClick={ClickHandler} to={`/contact`}>
                                                 {project.title}
                                             </Link>
                                         </h3>
-                                        <h4>AI</h4>
                                     </div>
                                 </div>
                             </div>

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import { connect } from "react-redux";
 import { removeFromCart } from "../../store/actions/action";
 import HeaderTopbar from '../HeaderTopbar/HeaderTopbar';
-import Logo from '../../img/Allimg/logo/logo.png';
+import Logo from '../../img/Allimg/logo1.png';
+// import Logo from '../../img/Allimg/logo/logo.png';
 import Home1 from '../../img/header/home-1.jpg';
 import Home2 from '../../img/header/home-2.jpg';
 import Home3 from '../../img/header/home-3.jpg';
@@ -53,7 +54,7 @@ const Header = (props) => {
                             <div className="header-left">
                                 <div className="logo">
                                     <Link onClick={ClickHandler} to="/" className="header-logo">
-                                        <img src={Logo} alt="logo-img" />
+                                        <img src={Logo} alt="logo-img"  style={{height:'80px'}}/>
                                     </Link>
                                 </div>
                             </div>

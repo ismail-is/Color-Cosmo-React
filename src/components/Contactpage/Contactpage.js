@@ -4,7 +4,7 @@ import InfIcon2 from '../../img/icon/12.svg'
 import InfIcon3 from '../../img/icon/13.svg'
 import ContactForm from '../ContactFrom/ContactForm';
 // import ContactForm from '../ContactFrom/ContactForm'
-
+import PBg from '../../img/product/bg.jpg';
 
 const Contactpage = () => {
 
@@ -57,8 +57,7 @@ const Contactpage = () => {
                 </div>
             </section>
 
-
-            <section className="contact-section section-padding pt-0 section-bg-2">
+            <section className="contact-section section-padding pt-10 section-bg-2" style={{ backgroundImage: `url(${PBg})` }}>
                 <div className="container">
                     <div className="contact-area">
                         <div className="row justify-content-between">

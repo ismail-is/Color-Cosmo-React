@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 
 
-import hero1 from '../../img/hero/hero-1.jpg'
+import hero1 from '../../img/Allimg/banner.jpg'
 import hero2 from '../../img/hero/hero-2.jpg'
 import hero3 from '../../img/hero/hero-3.jpg'
 import Shap1 from '../../img/hero/flower.png'

@@ -6,6 +6,13 @@ import 'swiper/swiper-bundle.min.css'; // Import Swiper styles
 import PBg from '../../img/product/bg.jpg';
 import Shap1 from '../../img/product/shape-2.png';
 import Shap2 from '../../img/product/shape-3.png';
+import img from '../../img/Allimg/works/1.png';
+import img2 from '../../img/Allimg/works/2.png';
+import img3 from '../../img/Allimg/works/3.png';
+import img4 from '../../img/Allimg/works/4.png';
+import img5 from '../../img/Allimg/works/5.png';
+import img6 from '../../img/Allimg/works/6.png';
+import img7 from '../../img/Allimg/works/7.png';
 
 const ProductSectionS3 = ({ products }) => {
 
@@ -71,11 +78,11 @@ const ProductSectionS3 = ({ products }) => {
                 <div className="swiper shop-slider">
                     <div className="swiper-wrapper">
                         {products.length > 0 &&
-                            products.slice(12, 18).map((product, index) => (
+                            products.slice(0, 8).map((product, index) => (
                                 <div className="swiper-slide" key={index}>
                                     <div className="shop-box-items">
                                         <div className="shop-image">
-                                            <img src={product.proImg} alt="img" />
+                                            <img src={img} alt="img" />
                                         </div>
                                         <div className="shop-content">
                                             <h3>
