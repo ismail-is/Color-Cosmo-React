@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Color-Cosmo-React/static/css/main.e802f91c.css",
-    "main.js": "/Color-Cosmo-React/static/js/main.7f9eb557.js",
+    "main.js": "/Color-Cosmo-React/static/js/main.651b6fe9.js",
     "static/js/787.39ed95fc.chunk.js": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js",
     "static/media/4.mp4": "/Color-Cosmo-React/static/media/4.9200d163261139fb619a.mp4",
     "static/media/6.mp4": "/Color-Cosmo-React/static/media/6.b7d59eb2f38bd9cfe5d5.mp4",
@@ -26,6 +26,7 @@
     "static/media/cta-bg.jpg": "/Color-Cosmo-React/static/media/cta-bg.99e096d04c650dceb82e.jpg",
     "static/media/fa-brands-400.ttf": "/Color-Cosmo-React/static/media/fa-brands-400.3139198fd214a3ac6d46.ttf",
     "static/media/ctc.png": "/Color-Cosmo-React/static/media/ctc.da57009975658ca8da20.png",
+    "static/media/color.png": "/Color-Cosmo-React/static/media/color.66a999a29c64697ca7bd.png",
     "static/media/5.png": "/Color-Cosmo-React/static/media/5.53421d989e41164c4250.png",
     "static/media/6.png": "/Color-Cosmo-React/static/media/6.220c4a7bb5bf72785d9c.png",
     "static/media/7.png": "/Color-Cosmo-React/static/media/7.eb2f3a5e793b33ebeecd.png",
@@ -50,7 +51,6 @@
     "static/media/2-2.jpg": "/Color-Cosmo-React/static/media/2-2.b89131ad1601689370bf.jpg",
     "static/media/testimonial-bg-2.jpg": "/Color-Cosmo-React/static/media/testimonial-bg-2.324d7c0cc5581a4cbdb4.jpg",
     "static/media/testimonial-bg.jpg": "/Color-Cosmo-React/static/media/testimonial-bg.527d25e28b8449434720.jpg",
-    "static/media/product-shape.png": "/Color-Cosmo-React/static/media/product-shape.8ca0c236dbff42b6070d.png",
     "static/media/06.svg": "/Color-Cosmo-React/static/media/06.33cf81a92430321da9c3364ad4a7aeb7.svg",
     "static/media/service-bg.jpg": "/Color-Cosmo-React/static/media/service-bg.19e77f2731cc53e66722.jpg",
     "static/media/hero-bg-2.jpg": "/Color-Cosmo-React/static/media/hero-bg-2.b63e59e8b22db3640082.jpg",
@@ -88,11 +88,11 @@
     "static/media/03.svg": "/Color-Cosmo-React/static/media/03.6367527799a9910ceba4570021ad7308.svg",
     "static/media/16.svg": "/Color-Cosmo-React/static/media/16.28bd123d1993cf433e6ddbb525aa2249.svg",
     "main.e802f91c.css.map": "/Color-Cosmo-React/static/css/main.e802f91c.css.map",
-    "main.7f9eb557.js.map": "/Color-Cosmo-React/static/js/main.7f9eb557.js.map",
+    "main.651b6fe9.js.map": "/Color-Cosmo-React/static/js/main.651b6fe9.js.map",
     "787.39ed95fc.chunk.js.map": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e802f91c.css",
-    "static/js/main.7f9eb557.js"
+    "static/js/main.651b6fe9.js"
   ]
 }
