@@ -13,7 +13,7 @@ import hero2 from '../../img/hero/hero-2.jpg'
 import hero3 from '../../img/hero/hero-3.jpg'
 import Shap1 from '../../img/hero/flower.png'
 import Shap2 from '../../img/about/dot-2.png'
-import Shap3 from '../../img/hero/stickers.png'
+import Shap3 from '../../img/about/dot-2.png'
 import Shapbg from '../../img/hero/hero-content-shape.png'
 import { Link } from "react-router-dom";
 
@@ -69,7 +69,7 @@ const HeroSection = () => {
                             </div>
                         </div>
                         <div className="container">
-                            <div className="row justify-content-xxl-end">
+                            <div className="row justify-content-xxl-start">
                                 <div className="col-lg-7">
                                     <div
                                         className="hero-content"
@@ -80,13 +80,13 @@ const HeroSection = () => {
                                         // }}
                                     >
                                         <h5></h5>
-                                        <h1 data-animation="fadeInUp" data-delay="1.5s">
+                                        <h1 data-animation="fadeInUp" data-delay="1.5s" style={{textAlign:'start'}}>
                                         Delivering <br/>High-performance Inks For Modern Packaging
                                         </h1>
-                                        <p data-animation="fadeInUp" data-delay="1.7s">
+                                        <p data-animation="fadeInUp" data-delay="1.7s"  style={{textAlign:'start'}}>
                                         Trusted By Top Manufacturers For Ink Solutions
                                         </p>
-                                        <div className="hero-button">
+                                        <div className="hero-button" style={{marginBottom:'50px'}}>
                                             <Link onClick={ClickHandler} to="/contact"
                                                 data-animation="fadeInUp"
                                                 data-delay="1.9s"

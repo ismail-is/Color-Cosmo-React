@@ -4145,6 +4145,7 @@ span {
   letter-spacing: -1.44px;
   line-height: 102%;
   margin-bottom: 30px;
+  text-align: start;
 }
 @media (max-width: 991px) {
   .hero-2 .hero-content h1 {
@@ -4157,10 +4158,20 @@ span {
   }
 }
 @media (max-width: 575px) {
+  .hero-2 .hero-content {
+    top: 160px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    /* height: 400px; */
+  }
+
   .hero-2 .hero-content h1 {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
+
 .hero-2 .hero-content p {
   font-size: 18px;
   color: var(--white);
@@ -4180,7 +4191,7 @@ span {
 }
 @media (max-width: 575px) {
   .hero-3 {
-    padding: 160px 0 120px;
+    padding: 140px 0 120px;
   }
 }
 .hero-3 .line-shape {
