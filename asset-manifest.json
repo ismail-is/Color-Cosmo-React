@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Color-Cosmo-React/static/css/main.e802f91c.css",
-    "main.js": "/Color-Cosmo-React/static/js/main.32138f6a.js",
+    "main.css": "/Color-Cosmo-React/static/css/main.a8c38e00.css",
+    "main.js": "/Color-Cosmo-React/static/js/main.358095c7.js",
     "static/js/787.39ed95fc.chunk.js": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js",
     "static/media/4.mp4": "/Color-Cosmo-React/static/media/4.9200d163261139fb619a.mp4",
     "static/media/6.mp4": "/Color-Cosmo-React/static/media/6.b7d59eb2f38bd9cfe5d5.mp4",
@@ -31,10 +31,10 @@
     "static/media/6.png": "/Color-Cosmo-React/static/media/6.220c4a7bb5bf72785d9c.png",
     "static/media/7.png": "/Color-Cosmo-React/static/media/7.eb2f3a5e793b33ebeecd.png",
     "static/media/cta-bg-2.jpg": "/Color-Cosmo-React/static/media/cta-bg-2.d9f4515deada291e97a7.jpg",
-    "static/media/1.png": "/Color-Cosmo-React/static/media/1.6cba29ca730d4f42c767.png",
+    "static/media/1.png": "/Color-Cosmo-React/static/media/1.c0893022bd630c778c48.png",
     "static/media/8.png": "/Color-Cosmo-React/static/media/8.0b7e93ee05555970932f.png",
     "static/media/4.png": "/Color-Cosmo-React/static/media/4.c01bb2187ed379de1477.png",
-    "static/media/2.png": "/Color-Cosmo-React/static/media/2.835d2ddb96c99c7407b3.png",
+    "static/media/2.png": "/Color-Cosmo-React/static/media/2.18f821a61c75ff60987a.png",
     "static/media/fa-brands-400.woff2": "/Color-Cosmo-React/static/media/fa-brands-400.2609c565b2064f577886.woff2",
     "static/media/footer-bg.jpg": "/Color-Cosmo-React/static/media/footer-bg.dd9b8ad0ea820993b02c.jpg",
     "static/media/footer-bg-2.jpg": "/Color-Cosmo-React/static/media/footer-bg-2.b17040c7202a07628d8b.jpg",
@@ -86,12 +86,12 @@
     "index.html": "/Color-Cosmo-React/index.html",
     "static/media/03.svg": "/Color-Cosmo-React/static/media/03.6367527799a9910ceba4570021ad7308.svg",
     "static/media/16.svg": "/Color-Cosmo-React/static/media/16.28bd123d1993cf433e6ddbb525aa2249.svg",
-    "main.e802f91c.css.map": "/Color-Cosmo-React/static/css/main.e802f91c.css.map",
-    "main.32138f6a.js.map": "/Color-Cosmo-React/static/js/main.32138f6a.js.map",
+    "main.a8c38e00.css.map": "/Color-Cosmo-React/static/css/main.a8c38e00.css.map",
+    "main.358095c7.js.map": "/Color-Cosmo-React/static/js/main.358095c7.js.map",
     "787.39ed95fc.chunk.js.map": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e802f91c.css",
-    "static/js/main.32138f6a.js"
+    "static/css/main.a8c38e00.css",
+    "static/js/main.358095c7.js"
   ]
 }
