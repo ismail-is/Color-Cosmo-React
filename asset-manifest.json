@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Color-Cosmo-React/static/css/main.a8c38e00.css",
-    "main.js": "/Color-Cosmo-React/static/js/main.358095c7.js",
+    "main.js": "/Color-Cosmo-React/static/js/main.1e2c342e.js",
     "static/js/787.39ed95fc.chunk.js": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js",
     "static/media/4.mp4": "/Color-Cosmo-React/static/media/4.9200d163261139fb619a.mp4",
     "static/media/6.mp4": "/Color-Cosmo-React/static/media/6.b7d59eb2f38bd9cfe5d5.mp4",
@@ -87,11 +87,11 @@
     "static/media/03.svg": "/Color-Cosmo-React/static/media/03.6367527799a9910ceba4570021ad7308.svg",
     "static/media/16.svg": "/Color-Cosmo-React/static/media/16.28bd123d1993cf433e6ddbb525aa2249.svg",
     "main.a8c38e00.css.map": "/Color-Cosmo-React/static/css/main.a8c38e00.css.map",
-    "main.358095c7.js.map": "/Color-Cosmo-React/static/js/main.358095c7.js.map",
+    "main.1e2c342e.js.map": "/Color-Cosmo-React/static/js/main.1e2c342e.js.map",
     "787.39ed95fc.chunk.js.map": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8c38e00.css",
-    "static/js/main.358095c7.js"
+    "static/js/main.1e2c342e.js"
   ]
 }
