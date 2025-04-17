@@ -246,7 +246,7 @@ const About4 = () => {
       
 
       {/* Wrapper for 2-row layout */}
-      <div style={{ display: 'flex', gap:'230px' }}>
+      <div style={{ display: 'flex', justifyContent:'space-between' }}>
       <div className="icon-items">
       <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
         <h6>1 Kg        </h6>

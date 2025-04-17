@@ -1,16 +1,16 @@
 import React from 'react';
 
-import Ws1 from '../../img/about/product-shape.png'
-import Ws2 from '../../img/about/04.jpg'
+import Ws1 from '../../img/about/circle.png'
+import Ws2 from  '../../img/Allimg/color.png'
 import Ws3 from '../../img/about/05.jpg'
-import Ws4 from '../../img/feature/StickersV30.png'
+import Ws4 from '../../img/about/dot-2.png'
 import Ws5 from '../../img/line.png'
 
 
 const WorksSection = (props) => {
     return (
         <section className={"" +props.hclass} style={{ backgroundImage: `url(${props.Ws6})`}}>
-            <div className="product-shape float-bob-x">
+            <div className="product-shape float-bob-x"  style={{zIndex:'-2'}}>
                 <img src={Ws1} alt="img" />
             </div>
             <div className="container">
