@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Color-Cosmo-React/static/css/main.e802f91c.css",
-    "main.js": "/Color-Cosmo-React/static/js/main.651b6fe9.js",
+    "main.js": "/Color-Cosmo-React/static/js/main.32138f6a.js",
     "static/js/787.39ed95fc.chunk.js": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js",
     "static/media/4.mp4": "/Color-Cosmo-React/static/media/4.9200d163261139fb619a.mp4",
     "static/media/6.mp4": "/Color-Cosmo-React/static/media/6.b7d59eb2f38bd9cfe5d5.mp4",
@@ -58,7 +58,6 @@
     "static/media/pricing-shape.png": "/Color-Cosmo-React/static/media/pricing-shape.a7d6150b2d4a94281ef7.png",
     "static/media/2-1.jpg": "/Color-Cosmo-React/static/media/2-1.f3207d84bf9b879a0b22.jpg",
     "static/media/05.svg": "/Color-Cosmo-React/static/media/05.e032c5c2e967691985353fc15b5bf052.svg",
-    "static/media/rong-box.png": "/Color-Cosmo-React/static/media/rong-box.d922e004755841372acc.png",
     "static/media/work-shape.png": "/Color-Cosmo-React/static/media/work-shape.f2b23d44bc1e57fe6d76.png",
     "static/media/cap.png": "/Color-Cosmo-React/static/media/cap.03f859c54cfd831e3512.png",
     "static/media/2-3.jpg": "/Color-Cosmo-React/static/media/2-3.783a366857600a74d6d8.jpg",
@@ -88,11 +87,11 @@
     "static/media/03.svg": "/Color-Cosmo-React/static/media/03.6367527799a9910ceba4570021ad7308.svg",
     "static/media/16.svg": "/Color-Cosmo-React/static/media/16.28bd123d1993cf433e6ddbb525aa2249.svg",
     "main.e802f91c.css.map": "/Color-Cosmo-React/static/css/main.e802f91c.css.map",
-    "main.651b6fe9.js.map": "/Color-Cosmo-React/static/js/main.651b6fe9.js.map",
+    "main.32138f6a.js.map": "/Color-Cosmo-React/static/js/main.32138f6a.js.map",
     "787.39ed95fc.chunk.js.map": "/Color-Cosmo-React/static/js/787.39ed95fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e802f91c.css",
-    "static/js/main.651b6fe9.js"
+    "static/js/main.32138f6a.js"
   ]
 }
