@@ -86,7 +86,7 @@ const HeroSection = () => {
                                         <p data-animation="fadeInUp" data-delay="1.7s"  style={{textAlign:'start'}}>
                                         Trusted By Top Manufacturers For Ink Solutions
                                         </p>
-                                        <div className="hero-button" style={{marginBottom:'50px'}}>
+                                        <div className="hero-button" style={{marginBottom:'70px'}}>
                                             <Link onClick={ClickHandler} to="/contact"
                                                 data-animation="fadeInUp"
                                                 data-delay="1.9s"
