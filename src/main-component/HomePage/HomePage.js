@@ -30,6 +30,7 @@ import ProductSectionS3 from '../../components/ProductSectionS3/ProductSectionS3
 import ProjectSectionS2 from '../../components/ProjectSectionS2/ProjectSectionS2';
 import BrandSection from '../../components/BrandSection/BrandSection';
 import MarqueeSectionS3 from '../../components/MarqueeSectionS3/MarqueeSectionS3';
+import CtaSectionS2 from '../../components/CtaSectionS2/CtaSectionS2';
 
 const HomePage = ({ addToCart }) => {
 
@@ -53,7 +54,7 @@ const HomePage = ({ addToCart }) => {
             {/* <ProductSectionS3 products={products} /> */}
             <ProjectSectionS2 hclass={'project-section s2 fix section-padding pt-0'} />
             <BrandSection />
-            <MarqueeSectionS3 />
+            {/* <MarqueeSectionS3 /> */}
 
             {/* <About />
             <FunFact hclass={'counter-section fix section-padding pt-0'} />
@@ -72,7 +73,7 @@ const HomePage = ({ addToCart }) => {
             {/* <PricingSection /> */}
             {/* <Testimonial /> */}
             {/* <BlogSection hclass="blog-section section-padding pt-0 bg-cover" SubClass="blog-wrapper" /> */}
-            {/* <CtaSection /> */}
+            <CtaSectionS2 />
             <FooterS3 />
             <CursorMaus />
         </Fragment>
