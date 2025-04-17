@@ -7629,7 +7629,7 @@ input.main-search-input::placeholder {
   left: 50%;
   transform: translate(-50%, -50%);
   content: "";
-  background-color: #FA585D;
+  /* background-color: #FA585D; */
   border-radius: 50%;
   width: 240px;
   height: 240px;

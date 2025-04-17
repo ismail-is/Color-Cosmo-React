@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Sb1 from '../../img/shop-banner/01.png'
+import Sb1 from '../../img/Allimg/1.png'
+import Sb3 from '../../img/Allimg/2.png'
 import Sb2 from '../../img/shop-banner/02.png'
 import Shape from '../../img/shop-banner/vector.png'
 import { Link } from 'react-router-dom';
@@ -21,11 +22,11 @@ const ShopbannerSection = () => {
                                 <h3>
                                 Vision 
                                 </h3>
-                                <h4><span>To become a market-leading manufacturer of innovative, high-quality industrial inks and pigment pastes, known for reliability, customization, and consistency across global printing and packaging industries</span></h4>
+                                <h4  style={{color:'black'}}><span>To become a market-leading manufacturer of innovative, high-quality industrial inks and pigment pastes, known for reliability, customization, and consistency across global printing and packaging industries</span></h4>
                                 {/* <Link onClick={ClickHandler} to="/shop" className="theme-btn">Shop Now</Link> */}
                             </div>
-                            <div className="shop-image">
-                                <img src={Sb1} alt="img" className="ps-2" />
+                            <div className="shop-image" >
+                                <img src={Sb3} alt="img" className="ps-2" />
                             </div>
                         </div>
                     </div>
@@ -36,11 +37,11 @@ const ShopbannerSection = () => {
                                 <h3>
                                 Mission  
                                 </h3>
-                                <h4 style={{color:'#08BDC9'}}><span>We aim to deliver competitively priced inks and trusted technical support to our clients, offering tailor-made solutions that enhance print quality across various substrates and packaging formats</span></h4>
+                                <h4 style={{color:'black'}}><span>We aim to deliver competitively priced inks and trusted technical support to our clients, offering tailor-made solutions that enhance print quality across various substrates and packaging formats</span></h4>
                                 {/* <Link onClick={ClickHandler} to="/shop" className="theme-btn">Shop Now</Link> */}
                             </div>
                             <div className="shop-image">
-                                <img src={Sb1} alt="img" className="ps-2" />
+                                <img src={Sb1} alt="img" className="ps-2"  />
                             </div>
                         </div>
                     </div>
