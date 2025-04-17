@@ -80,7 +80,7 @@ const FooterS3 = () => {
                                             </Link>
                                         </li>
                                         <li >
-                                            <Link to='/services'>
+                                            <Link to='/service'>
                                             Our Services  
                                             </Link>
                                         </li>
@@ -100,22 +100,22 @@ const FooterS3 = () => {
                                 </div>
                                 <ul className="list-items">
                                     <li>
-                                        <Link onClick={ClickHandler} to="/">
+                                        <Link onClick={ClickHandler} to="/service">
                                         Dry Offset Inks
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} to="/contact">
+                                        <Link onClick={ClickHandler} to="/service">
                                         Screen Printing Inks
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} to="/contact">
+                                        <Link onClick={ClickHandler} to="/service">
                                         UV Offset Printing Inks
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link onClick={ClickHandler} to="/news">
+                                        <Link onClick={ClickHandler} to="/service">
                                         UV Letterpress Inks
                                         </Link>
                                     </li>

@@ -40,8 +40,8 @@ const CtaVideoSection = () => {
                     </div>
                 </div>
             </div> */}
-            <div className="container-fluid">
-                <section className="contact-section section-padding pt-10 section-bg-2" style={{ backgroundImage: `url(${PBg})` }}>
+            <div className="container-fluid" style={{borderRadius:'30px'}}>
+                <section className="contact-section section-padding pt-10 section-bg-2" style={{ backgroundImage: `url(${PBg})`,borderRadius:'30px',padding:'20px',marginBottom:'10px' }}>
                     <div >
                         <VideoModal/>
                     </div>

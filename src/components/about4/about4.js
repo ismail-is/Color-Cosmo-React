@@ -97,7 +97,7 @@ const About4 = () => {
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-                                        <div className="icon-box-items">
+                                        <div className="icon-box-items" style={{borderColor:'#93519F'}}>
                                             <div className="icon-items">
                                                 <div className="icon bg-2" style={{backgroundColor:'#93519f'}}>
                                                     <img src={Abimg13} alt="" style={{height:'40px'}}/>
@@ -172,7 +172,7 @@ const About4 = () => {
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items ">
+    <div className="icon-box-items active ">
       <div className="icon-items">
         <div className="icon">
           <img src={Abimg15} alt="img" style={{height:'40px'}}/>
@@ -236,9 +236,9 @@ const About4 = () => {
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items active" >
+    <div className="icon-box-items active" style={{borderColor:'#93519F'}}>
       <div className="icon-items">
-        <div className="icon">
+        <div className="icon" style={{backgroundColor:'#93519F'}}>
           <img src={Abimg14} alt="img"  style={{height:'40px'}}/>
         </div>
         <h6>Packaging        </h6>
@@ -248,12 +248,12 @@ const About4 = () => {
       {/* Wrapper for 2-row layout */}
       <div style={{ display: 'flex', justifyContent:'space-between' }}>
       <div className="icon-items">
-      <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+      <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
         <h6>1 Kg        </h6>
       </div>
       <div className="icon-items">
-      <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
-        <h6>2 Kg        </h6>
+      <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
+        <h6>4 Kg        </h6>
       </div>
     
        
@@ -366,7 +366,7 @@ const About4 = () => {
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-                                        <div className="icon-box-items">
+                                        <div className="icon-box-items" style={{borderColor:'#93519F'}}>
                                             <div className="icon-items">
                                                 <div className="icon bg-2" style={{backgroundColor:'#93519f'}}>
                                                     <img src={Abimg13} alt="" style={{height:'40px'}}/>
@@ -411,9 +411,9 @@ const About4 = () => {
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items active" >
-      <div className="icon-items">
-        <div className="icon">
+    <div className="icon-box-items active" style={{borderColor:'#93519F'}}>
+      <div className="icon-items" >
+        <div className="icon" style={{backgroundColor:"#93519F"}}>
           <img src={Abimg14} alt="img"  style={{height:'40px'}}/>
         </div>
         <h6>Packaging        </h6>
@@ -423,15 +423,15 @@ const About4 = () => {
       {/* Wrapper for 2-row layout */}
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           1 kg
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
          2.5 kg
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
          4 kg
         </span>
        
@@ -449,7 +449,7 @@ const About4 = () => {
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items ">
+    <div className="icon-box-items active">
       <div className="icon-items">
         <div className="icon">
           <img src={Abimg15} alt="img" style={{height:'40px'}}/>
@@ -569,8 +569,8 @@ const About4 = () => {
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-                                        <div className="icon-box-items">
-                                            <div className="icon-items">
+                                        <div className="icon-box-items" style={{borderColor:'#93519F'}}>
+                                            <div className="icon-items" >
                                                 <div className="icon bg-2" style={{backgroundColor:'#93519f'}}>
                                                     <img src={Abimg13} alt="" style={{height:'40px'}}/>
                                                 </div>
@@ -640,11 +640,11 @@ const About4 = () => {
 
 
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" style={{marginBottom:'20px'}}>
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items ">
+    <div className="icon-box-items active">
       <div className="icon-items">
         <div className="icon">
           <img src={Abimg15} alt="img" style={{height:'40px'}}/>
@@ -708,9 +708,9 @@ const About4 = () => {
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items active" >
-      <div className="icon-items">
-        <div className="icon">
+    <div className="icon-box-items active" style={{borderColor:'#93519F'}}>
+      <div className="icon-items" >
+        <div className="icon" style={{backgroundColor:"#93519F"}}>
           <img src={Abimg14} alt="img"  style={{height:'40px'}}/>
         </div>
         <h6>Packaging        </h6>
@@ -720,11 +720,11 @@ const About4 = () => {
       {/* Wrapper for 2-row layout */}
       <div style={{ display: 'flex', gap:'230px' }}>
       <div className="icon-items">
-      <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+      <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
         <h6>1 Kg        </h6>
       </div>
       <div className="icon-items">
-      <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+      <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
         <h6>4 Kg        </h6>
       </div>
     

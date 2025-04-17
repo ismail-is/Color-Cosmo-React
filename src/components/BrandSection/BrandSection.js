@@ -21,7 +21,7 @@ SwiperCore.use([Autoplay]);
 
 const BrandSection = () => {
     return (
-        <section  className="shop-section bg-cover section-padding" style={{ backgroundImage: `url(${PBg})` }}>
+        <section  className="shop-section bg-cover section-padding" style={{ backgroundImage: `url(${PBg})`,marginTop:'-100px' }} > 
         <div className="brand-section">
             <div className="container">
                 

@@ -12,7 +12,7 @@ import hero1 from '../../img/Allimg/banner.jpg'
 import hero2 from '../../img/hero/hero-2.jpg'
 import hero3 from '../../img/hero/hero-3.jpg'
 import Shap1 from '../../img/hero/flower.png'
-import Shap2 from '../../img/hero/rong-box.png'
+import Shap2 from '../../img/about/dot-2.png'
 import Shap3 from '../../img/hero/stickers.png'
 import Shapbg from '../../img/hero/hero-content-shape.png'
 import { Link } from "react-router-dom";

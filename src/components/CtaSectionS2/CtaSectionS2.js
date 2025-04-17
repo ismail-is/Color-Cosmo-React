@@ -13,8 +13,8 @@ const ClickHandler = () => {
 
 const CtaSectionS2 = () => {
     return (
-        <section className="cta-section-3">
-            <div className="mycustom-marque style-3">
+        <section className="cta-section-3" style={{marginBottom:'10px'}}>
+            {/* <div className="mycustom-marque style-3">
                 <div className="scrolling-wrap">
                     <div className="comm cmn-style-2">
                         <div className="cmn-textslide">Design.</div>
@@ -35,7 +35,7 @@ const CtaSectionS2 = () => {
                         <div><img src={Mq1} alt="img" /></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="container">
                 <div className="cta-wrapper-2 bg-cover"  style={{ backgroundImage: `url(${Mq2})` }}>
                     <div className="prite-box float-bob-y">
@@ -49,18 +49,18 @@ const CtaSectionS2 = () => {
                     </div>
                     <div className="cta-content">
                         <div className="section-title">
-                            <h6 className="bg-white wow fadeInUp">printing Service</h6>
+                            <h6 className="bg-white wow fadeInUp"></h6>
                             <h2 className="text-white split-text right">
                                 Ready To Create Some <br/>
                                     Custom Products?
                             </h2>
                         </div>
                         <div className="cta-btn mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                            <Link onClick={ClickHandler} to="/about" className="theme-btn">more about us</Link>
+                            <Link onClick={ClickHandler} to="/contact" className="theme-btn">Contact Us</Link>
                         </div>
                     </div>
-                    <div className="cta-image">
-                        <img src={Mq6} alt="img" />
+                    <div className="cta-image" >
+                        <img src={Mq6} alt="img" style={{height:'320px'}}/>
                     </div>
                 </div>
             </div>

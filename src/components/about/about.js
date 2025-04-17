@@ -61,8 +61,8 @@ const about = () => {
                                 <div className="section-title">
                                     <h6 className="wow fadeInUp"></h6>
                                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                                    Dry Offset Inksdry 
-                                        <span> Offset Inks <img src={Abimg9} alt="img" /></span>
+                                    Dry Offset Inks
+                                        {/* <span> Offset Inks <img src={Abimg9} alt="img" /></span> */}
                                     </h2>
                                 </div>
                                 <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
@@ -97,8 +97,8 @@ const about = () => {
 
                                         </div>
                                     </div>
-                                    <div className="col-xl-6 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".5s">
-                                        <div className="icon-box-items">
+                                    <div className="col-xl-6 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".5s" >
+                                        <div className="icon-box-items" style={{borderColor:'#93519F'}}>
                                             <div className="icon-items">
                                                 <div className="icon bg-2" style={{backgroundColor:'#93519f'}}>
                                                     <img src={Abimg13} alt="" style={{height:'40px'}}/>
@@ -144,7 +144,7 @@ const about = () => {
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
     <div className="icon-box-items active" >
-      <div className="icon-items">
+      <div className="icon-items" >
         <div className="icon">
           <img src={Abimg14} alt="img"  style={{height:'40px'}}/>
         </div>
@@ -160,7 +160,7 @@ const about = () => {
       </div>
       <div className="icon-items">
       <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
-        <h6>2 Kg        </h6>
+        <h6>4 Kg        </h6>
       </div>
     
        
@@ -179,9 +179,9 @@ const about = () => {
                             <div className="about-content">
                                 <div className="row g-4">
   <div className="col-xl-12 col-md-6 col-lg-12 wow fadeInUp" data-wow-delay=".3s">
-    <div className="icon-box-items ">
+    <div className="icon-box-items active" style={{borderColor:'#93519F'}}>
       <div className="icon-items">
-        <div className="icon">
+        <div className="icon" style={{backgroundColor:'#93519F'}}>
           <img src={Abimg15} alt="img" style={{height:'40px'}}/>
         </div>
         <h6>Properties</h6>
@@ -190,45 +190,45 @@ const about = () => {
       {/* Wrapper for 2-row layout */}
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           Low Odor
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           Minimum ΔE*
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           Best adhesion
         </span>
        
        
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           High Gloss
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           High Color Strength
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           Excellent Ink Transfer
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           Good Scuff Resistance
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           ITX Free
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           Low tack to minimize wastage
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: '14px', width: '50%', marginBottom: '10px' }}>
-          <i className="fas fa-check-circle" style={{ color: '#3a8d79' }}></i>
+          <i className="fas fa-check-circle" style={{ color: '#93519F' }}></i>
           High Cure speed for High Speed Machine
         </span>
       </div>
